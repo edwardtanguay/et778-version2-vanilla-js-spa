@@ -19,10 +19,6 @@ export function nav() {
 `;
 }
 
-export function renderNav() {
-  document.querySelector("nav").innerHTML = nav();
-}
-
 function onNavigate(pathname) {
   window.history.pushState({}, pathname, window.location.origin + pathname);
   renderCurrentPage(pathname);
