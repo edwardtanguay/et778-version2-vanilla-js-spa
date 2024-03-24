@@ -12,6 +12,9 @@ export function nav() {
   <li>
     <a href="/contact">Contact</a>
   </li>
+  <li>
+    <a href="/not-existing-page">Not existing Page</a>
+  </li>
 </nav>
 `;
 }
